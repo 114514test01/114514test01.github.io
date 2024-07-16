@@ -5,4 +5,5 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"VPN","name":"叙利亚1","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"114.5.1.4","port":"514","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"叙利亚1","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"114.5.1.4","port":"514","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"} 
+  - {"type":"UDP","name":"博茨瓦纳1","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}},"server":"114.5.1.4","port":"514","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
