@@ -1,0 +1,40 @@
+proxies:
+  - name: 馃嚟馃嚢 棣欐腐鑺傜偣 1
+    server: 36.151.195.77
+    port: 20819
+    client-fingerprint: chrome
+    type: trojan
+    password: MfqALmAJ
+    skip-cert-verify: true
+
+  - name: 馃嚟馃嚢 棣欐腐鑺傜偣 2
+    server: a1.45s6e224gdr.shop
+    port: 17873
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: XoYrrEfZYxxHL3AI
+    tfo: false
+
+proxy-groups:
+  - name: 馃寪 鍥介檯浜掕仈
+    type: select
+    proxies:
+      - 馃嚟馃嚢 棣欐腐鑺傜偣 1
+      - 馃嚟馃嚢 棣欐腐鑺傜偣 2
+
+  - name: 馃嚚馃嚦 鍐呴儴璁伅
+    type: select
+    proxies:
+      - DIRECT
+      - 馃嚟馃嚢 棣欐腐鑺傜偣 1
+      - 馃嚟馃嚢 棣欐腐鑺傜偣 2
+
+  - name: 鈾伙笍 鑷姩閫夋嫨
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 馃嚟馃嚢 棣欐腐鑺傜偣 1
+      - 馃嚟馃嚢 棣欐腐鑺傜偣 2
