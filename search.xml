@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Cloudflare自建超快梯子？完美避开1101错误？解决.dev域名被墙？</title>
+    <url>/2025/02/16/cloudflare-proxies/</url>
+    <content><![CDATA[<h2 id="闲话"><a href="#闲话" class="headerlink" title="闲话"></a>闲话</h2><p>之周所众啊，目前网络上流传着很多免费的Clash订阅，但是这些订阅要么非常慢，要么不稳定，总之就是没几个好用的，此时有一个自己的梯子就是非常的重要了</p>
+<p>下面这张图的含金量再次被体现出来↓</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E6%A2%AF%E5%AD%90%E7%AC%AC%E4%B8%80%E6%B3%95%E5%88%99.png"
+                      alt="梯子三大法则"
+                ></p>
+<h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p>接下来的教程中的任何链接你如果打不开，可以先使用这个订阅：<a class="link"   href="https://free.datiya.com/" >https://free.datiya.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<p>本期使用了一个Github开源库：edgetunnel</p>
+<p>首先你需要一个Cloudflare账号，我觉得是个人都应该会注册的，不废话了</p>
+<p>到了仪表盘，点击左侧的”Workers和pages”，然后你应该看到这个</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235053.png"
+                      alt="1"
+                ></p>
+<p>点击创建，创建一个Workers，在创建页面”在模板开始”那里点快速开始，名字随便起，好记好打就行，例如114514</p>
+<p>然后在你的Workers界面，点编辑代码，默认代码全删，然后复制这个仓库里的：<a class="link"   href="https://github.com/cmliu/edgetunnel" >https://github.com/cmliu/edgetunnel<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<p>两个文件：明码原文和混淆版（workers.js)都可以，推荐混淆版</p>
+<p>然后到你的workers设置里，点击设置，变量与机密，类型纯文本，变量名叫UUID或者PASSWORD都可以（注意大写，注意大写，注意大写！！！），内容就是你的密码</p>
+<p>具体的变量说明要看项目的github上的说明</p>
+<p>订阅地址是你的域名&#x2F;+密码</p>
+<p>顺便一赏我炸裂的图表</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235452.png"
+                      alt="2"
+                ></p>
+<p>视频教学：<a class="link"   href="https://www.youtube.com/watch?v=tKe9xUuFODA" >https://www.youtube.com/watch?v=tKe9xUuFODA<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h2 id="Error1101"><a href="#Error1101" class="headerlink" title="Error1101"></a>Error1101</h2><p>2024年12月Cloudflare发布了协议，不允许用户使用pages和workers以任何形式搭建梯子</p>
+<p>但是呢，Cloudflare的态度并不是一棒子打死，每个用户每天是有100000条免费请求，这点请求量普通用户绝对够用，但是一旦你的请求量超过了规定的100000条，Cloudflare的棒子就会朝你飞来</p>
+<p>1101这个错误代码的意思其实并不是项目被阻止，而是因为你的请求超过了100000条，Cloudflare把你的Workers停了，所以你里面的代码跑到一半停了就会出现这个问题</p>
+<p>Cloudflare每个上传过的代码都是自动经过一次审查的，但梯子一般不会被查出来，因为这个一次审查的目的主要是检查你的代码有没有危害性，但是请求量超出了，就有被二次审查的风险，一旦被查出来，你就会被封号，项目也会被加入黑名单封锁，即使你改回默认的Hello World也会爆1101，唯一可以做的就是删库，这也是为什么我推荐混淆版</p>
+<p>所以就一个办法：不要滥用，不要把你的订阅发给别人</p>
+<p>视频：<a class="link"   href="https://www.youtube.com/watch?v=r4uVTEJptdE" >https://www.youtube.com/watch?v=r4uVTEJptdE<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h2 id="解决-dev被墙"><a href="#解决-dev被墙" class="headerlink" title="解决.dev被墙"></a>解决.dev被墙</h2><p>.dev域名在大陆基本上被墙光了，但是这个项目官方推荐的免费二级域名.us.kg非常繁琐且不好用，还经常报错，所以还是推荐使用默认的.workers.dev域名</p>
+<p>但是我的办法好像有点治标不治本，如果你有更好的办法就尽量不要用我的办法</p>
+<p>1、改DNS用谷歌的Public Dns（改DNS是个人都会的，不废话了）</p>
+<p>2、搭梯子</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello world</title>
+    <url>/2025/02/11/hello-world/</url>
+    <content><![CDATA[<h2 id="Hey-there-👏"><a href="#Hey-there-👏" class="headerlink" title="Hey there 👏"></a>Hey there 👏</h2><p>Kai’s blog</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>DNS响应速度与选择</title>
+    <url>/2025/01/25/dns-speed/</url>
+    <content><![CDATA[<p>最近网速奇慢无比，网页打开速度一般都在10秒以上，并且基本上就没有多少小众网站是打得开的，现在看来多半是DNS的问题</p>
+<p>路由器DHCP自动分配的DNS其实大部分都很差，且服务不一定稳定，这里列举一下常用的免费DNS，先看一下列表，怎么选择待会儿会细说</p>
+<h2 id="大陆地区"><a href="#大陆地区" class="headerlink" title="大陆地区"></a>大陆地区</h2><p>114 DNS： （114.114.114.114；114.114.115.115）</p>
+<p>114DNS Safe （114.114.114.119；114.114.115.119）</p>
+<p>114DNS Home （114.114.114.110；114.114.115.110）</p>
+<p>AliDNS： （223.5.5.5； 223.6.6.6）</p>
+<p>BaiduDNS （180.76.76.76；2400:da00::6666）</p>
+<p>DNSPod DNS （119.29.29.29；119.28.28.28；182.254.118.118；182.254.116.116）</p>
+<p>PandaDNS：（115.159.157.26；115.159.158.38）</p>
+<p>CNNIC SDNS（1.2.4.8；210.2.4.8）</p>
+<p>oneDNS （117.50.11.11；117.50.22.22）（之前官方的还可使用：112.124.47.27；114.215.126.16）</p>
+<p>DNS 派 电信&#x2F;移动&#x2F;铁通    （101.226.4.6；218.30.118.6）</p>
+<p>DNS 派 联通    （123.125.81.6；140.207.198.6）</p>
+<p>MoguDNS    NS1 ：（115.159.96.69 NS2 ：122.114.245.45）</p>
+<p>Worldlink DNS :</p>
+<p>DNS ONE   北方推荐：（123.207.137.88 南方推荐：115.159.220.214）</p>
+<p>DNS TWO   北方推荐：（122.114.245.45 南方推荐：115.159.96.69）</p>
+<p>DNS THREE    北方推荐：（115.159.157.26 南方推荐：115.159.158.38）</p>
+<p>中科大防污染DNS（202.141.162.123（中国电信）；202.141.178.13（电信线路）;202.38.93.153（教育网）；202.141.176.93（中国移动））</p>
+<p>干净,自由,无劫持纯净DNS：（南方：115.159.146.99   北方：123.206.21.48）速度哪个快自己ping一下</p>
+<p>Xsico DNS纯净快速公用DNS： （Public Dns: 115.159.157.26   Scholar Dns: 115.159.158.38）貌似禁止ping了，随时会停止服务</p>
+<p>BAI DNS: （223.113.97.99） 支持EDNS</p>
+<p>PdoMo-DNS （DNS:101.132.183.99；DNS:193.112.15.186）</p>
+<p>cloudxns （124.251.124.251） 停止对免费用户服务了</p>
+<p>FUN DNS（119.23.248.241）</p>
+<p>camelyundns 公共 dns：（63.223.94.66）</p>
+<p>CuteDNS：</p>
+<p>高速DNS： 华北 123.206.61.167；华南 119.29.105.234</p>
+<p>去广告DNS： 华北 101.236.28.23 ；华南 120.77.212.84</p>
+<p>我国首个IPv6公共DNS：首选DNS：240c::6666，备用DNS：240c::6644。</p>
+<p>P站DNS：DNS 1: 123.207.137.88，DNS 2: 115.159.220.214 ；备用DNS 1: 115.159.146.99，DNS 2: 123.206.21.48</p>
+<p>清华大学TUNA DNS666：101.6.6.6；2001:da8::666</p>
+<p>HI!XNS（纯净无劫持）：40.73.101.101</p>
+<h2 id="港澳台地区"><a href="#港澳台地区" class="headerlink" title="港澳台地区"></a>港澳台地区</h2><p>台湾网络资讯中心 TWNIC Quad 101 DNS：（主DNS：101.101.101.101；备用：101.102.103.104） IPv6部分：主DNS：2001:de4::101；备用：2001:de4::102</p>
+<p>香港宽频DNS：（203.80.96.10；203.80.96.9）</p>
+<p>中国（香港）电信全球有限公司NS1（202.55.11.100 ）测试未 ping 通</p>
+<p>中国（香港）电信全球有限公司NS4（202.55.21.85）ping 在90左右</p>
+<p>西门子菠菜服务器（香港）（112.121.178.187）ping 在50左右</p>
+<p>中国台湾中华电信 HiNet DNS：（168.95.192.1；  168.95.1.1）</p>
+<p>和记黄埔有限公司（202.45.84.58）</p>
+<h2 id="国外公共DNS"><a href="#国外公共DNS" class="headerlink" title="国外公共DNS"></a>国外公共DNS</h2><p>Cloudflare &amp; APNIC （ IPv4: 主DNS：1.1.1.1，备用：1.0.0.1；IPv6: 主DNS：2001:2001::，备用2001:2001:2001::）</p>
+<p>AdGuard DNS（测试版）：</p>
+<p>默认（可拦截广告，跟踪和钓鱼网址）</p>
+<p>176.103.130.130；176.103.130.131</p>
+<p>IPv6 地址为：2a00:5a60::ad1:0ff；2a00:5a60::ad2:0ff</p>
+<p>家庭保护（默认 + 拦截成人网站 + 安全搜索）</p>
+<p>176.103.130.132；176.103.130.134</p>
+<p>IPv6 地址使用：2a00:5a60::bad1:0ff；2a00:5a60::bad2:0ff</p>
+<p>Google DNS     （8.8.8.8；    8.8.4.4）</p>
+<p>谷歌Google Public DNS IPv6 DNS    （2001:4860:4860::8888； 2001:4860:4860::8844）</p>
+<p>level 3：（4.2.2.1；4.2.2.2   ）</p>
+<p>IBM Quad9 DNS（9.9.9.9）</p>
+<p>Comodo Secure （8.26.56.26；8.20.247.20）</p>
+<p>V2EX DNS （199.91.73.222；178.79.131.110）</p>
+<p>OpenDNS  （208.67.222.222；208.67.220.220）</p>
+<p>OpenDNS Family：（208.67.222.123、208.67.220.123）</p>
+<p>UltraDNS   （156.154.70.1；156.154.71.1）</p>
+<p>Norton ConnectSafe   （199.85.126.10；199.85.127.10）</p>
+<p>威瑞信公共 DNS    （64.6.64.6；64.6.65.6）</p>
+<p>Dyn DNS   （216.146.35.35；216.146.36.36）</p>
+<p>Freenom World DNS  （80.80.80.80；80.80.81.81）</p>
+<p>Yandex Basic  （ 77.88.8.8；77.88.8.1）</p>
+<p>Yandex Basic  （77.88.8.8 ；77.88.8.2）</p>
+<p>Yandex Basic  （ 77.88.8.7；77.88.8.3）</p>
+<p>柬埔寨 CN2 DNS （103.197.104.178；103.197.106.75；203.189.136.148）ping在110-120左右</p>
+<p>Hurricane Electric HEDNS （IPV4：74.82.42.42；IPV6：2001：470：20：2；IPV4：66.220.18.42）</p>
+<p>UCOM日本东京（203.112.2.4）</p>
+<p>DNS.WATCH （IPV4：84.200.69.80；84.200.70.40；IPV6：2001:1608:10:25::1c04:b12f；2001:1608:10:25::9249:d69b）</p>
+<p>SafeDNS （195.46.39.39；195.46.39.40）</p>
+<p>puntCAT DNS （IPV4：109.69.8.51；IPV6：2a00:1508:0:4::9）</p>
+<p>韩国电信（不是韩国长安大学）DNS （ 168.126.63.1；168.126.63.2 ）</p>
+<h2 id="怎么选择"><a href="#怎么选择" class="headerlink" title="怎么选择"></a>怎么选择</h2><p>DNS这种东西并不能盲目听从别人的选择建议，不同国家、不同地区、甚至不同供应商都有可能对你的DNS速度产生影响，所以速度有多快得你自己试一下，但是这里需要注意，ping不通并不意味着不能用，因为很多DNS服务商可能会禁止ping，但ping不通的大多都不靠谱、你可以自己试一下，如果速度还可以且没有出什么问题的话基本上是可以放心用的</p>
+<p>目前ping时延0~30左右可以说优秀，30-40是良好，40-100是一般，100-150是能用，150以上的你就不要想了，让你感受到一个网页加载十分钟的快感，目前最快本人测出来BaiduDNS时延9ms是这列表里最快的（百度出的东西我不敢用(doge)，本人现在用Google Public DNS，时延30ms</p>
+<p>（这里顺带提一嘴，我cloudflareDNS 1.1.1.1时延238ms）</p>
+<p>至于各厂商运营的DNS，知名厂商的如果用下来没啥问题基本上是可以的，如果是你没听过的，国外小众厂商不推荐，国内小众厂商更不推荐</p>
+<p>重度翻墙用户建议使用港澳台&#x2F;海外DNS，中轻度和不翻墙的可以考虑自由选择</p>
+<p>换DNS这事其实也是有奇效的，如果你的企业&#x2F;组织禁止使用网络访问某些网站，更换DNS可能会起到效果，如果没有鸟用，那就只能考虑翻墙了</p>
+<p>总结一下我推荐的：</p>
+<h5 id="国内："><a href="#国内：" class="headerlink" title="国内："></a>国内：</h5><p>114 DNS： （114.114.114.114；114.114.115.115）(剩下两种不做推荐）</p>
+<p>DNSPod DNS 建议前两个 （119.29.29.29；119.28.28.28；182.254.118.118；182.254.116.116）</p>
+<p>其他的自由选择</p>
+<h5 id="港澳台："><a href="#港澳台：" class="headerlink" title="港澳台："></a>港澳台：</h5><p>西门子菠菜服务器（香港）（112.121.178.187）</p>
+<p>中国台湾中华电信 HiNet DNS：（168.95.192.1；  168.95.1.1）</p>
+<p>台湾网络资讯中心 TWNIC Quad 101 DNS：（主DNS：101.101.101.101；备用：101.102.103.104） IPv6部分：主DNS：2001:de4::101；备用：2001:de4::102</p>
+<h5 id="海外："><a href="#海外：" class="headerlink" title="海外："></a>海外：</h5><p>Cloudflare &amp; APNIC （ IPv4: 主DNS：1.1.1.1，备用：1.0.0.1；IPv6: 主DNS：2001:2001::，备用2001:2001:2001::） 安全稳定但我这不快</p>
+<p>Google DNS     （8.8.8.8；    8.8.4.4）</p>
+<p>谷歌Google Public DNS IPv6 DNS    （2001:4860:4860::8888； 2001:4860:4860::8844）</p>
+<p>UCOM日本东京（203.112.2.4）</p>
+<p>Yandex Basic  （ 77.88.8.8；77.88.8.1）</p>
+<p>Yandex Basic  （77.88.8.8 ；77.88.8.2）</p>
+<p>Yandex Basic  （ 77.88.8.7；77.88.8.3）</p>
+<p>OpenDNS 208.67.222.222 208.67.220.220</p>
+<p>微软DNS 4.2.2.1 4.2.2.2</p>
+]]></content>
+      <tags>
+        <tag>网络</tag>
+      </tags>
+  </entry>
+</search>
