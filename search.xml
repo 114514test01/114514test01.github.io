@@ -48,12 +48,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Hello world</title>
-    <url>/2025/02/11/hello-world/</url>
-    <content><![CDATA[<h2 id="Hey-there-👏"><a href="#Hey-there-👏" class="headerlink" title="Hey there 👏"></a>Hey there 👏</h2><p>Kai’s blog</p>
-]]></content>
-  </entry>
-  <entry>
     <title>DNS响应速度与选择</title>
     <url>/2025/01/25/dns-speed/</url>
     <content><![CDATA[<p>最近网速奇慢无比，网页打开速度一般都在10秒以上，并且基本上就没有多少小众网站是打得开的，现在看来多半是DNS的问题</p>
@@ -153,5 +147,11 @@
       <tags>
         <tag>网络</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello world</title>
+    <url>/2025/02/11/hello-world/</url>
+    <content><![CDATA[<h2 id="Hey-there-👏"><a href="#Hey-there-👏" class="headerlink" title="Hey there 👏"></a>Hey there 👏</h2><p>Kai’s blog</p>
+]]></content>
   </entry>
 </search>
