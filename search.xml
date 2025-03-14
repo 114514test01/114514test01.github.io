@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello world</title>
-    <url>/2025/02/11/hello-world/</url>
-    <content><![CDATA[<h2 id="Hey-there-👏"><a href="#Hey-there-👏" class="headerlink" title="Hey there 👏"></a>Hey there 👏</h2><p>Kai’s blog</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Cloudflare自建超快梯子？完美避开1101错误？解决.dev域名被墙？</title>
     <url>/2025/02/16/cloudflare-proxies/</url>
     <content><![CDATA[<h2 id="闲话"><a href="#闲话" class="headerlink" title="闲话"></a>闲话</h2><p>之周所众啊，目前网络上流传着很多免费的Clash订阅，但是这些订阅要么非常慢，要么不稳定，总之就是没几个好用的，此时有一个自己的梯子就是非常的重要了</p>
@@ -153,5 +147,11 @@
       <tags>
         <tag>网络</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello world</title>
+    <url>/2025/02/11/hello-world/</url>
+    <content><![CDATA[<h2 id="Hey-there-👏"><a href="#Hey-there-👏" class="headerlink" title="Hey there 👏"></a>Hey there 👏</h2><p>Kai’s blog</p>
+]]></content>
   </entry>
 </search>
