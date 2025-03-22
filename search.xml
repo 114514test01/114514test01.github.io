@@ -8,7 +8,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E6%A2%AF%E5%AD%90%E7%AC%AC%E4%B8%80%E6%B3%95%E5%88%99.png"
+                     data-src="https://github.com/114514test01/imgtemp/blob/main/202503/%E6%A2%AF%E5%AD%90%E7%AC%AC%E4%B8%80%E6%B3%95%E5%88%99.png?raw=ture"
                       alt="梯子三大法则"
                 ></p>
 <h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p>接下来的教程中的任何链接你如果打不开，可以先使用这个订阅：<a class="link"   href="https://free.datiya.com/" >https://free.datiya.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
@@ -18,7 +18,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235053.png"
+                     data-src="https://github.com/114514test01/imgtemp/blob/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235053.png?raw=ture"
                       alt="1"
                 ></p>
 <p>点击创建，创建一个Workers，在创建页面”在模板开始”那里点快速开始，名字随便起，好记好打就行，例如114514</p>
@@ -31,7 +31,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235452.png"
+                     data-src="https://github.com/114514test01/imgtemp/blob/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235452.png?raw=ture"
                       alt="2"
                 ></p>
 <p>视频教学：<a class="link"   href="https://www.youtube.com/watch?v=tKe9xUuFODA" >https://www.youtube.com/watch?v=tKe9xUuFODA<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
@@ -45,12 +45,6 @@
 <p>但是我的办法好像有点治标不治本，如果你有更好的办法就尽量不要用我的办法</p>
 <p>1、改DNS用谷歌的Public Dns（改DNS是个人都会的，不废话了）</p>
 <p>2、搭梯子</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello world</title>
-    <url>/2025/02/11/hello-world/</url>
-    <content><![CDATA[<h2 id="Hey-there-👏"><a href="#Hey-there-👏" class="headerlink" title="Hey there 👏"></a>Hey there 👏</h2><p>Kai’s blog</p>
 ]]></content>
   </entry>
   <entry>
@@ -153,5 +147,11 @@
       <tags>
         <tag>网络</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello world</title>
+    <url>/2025/02/11/hello-world/</url>
+    <content><![CDATA[<h2 id="Hey-there-👏"><a href="#Hey-there-👏" class="headerlink" title="Hey there 👏"></a>Hey there 👏</h2><p>Kai’s blog</p>
+]]></content>
   </entry>
 </search>
