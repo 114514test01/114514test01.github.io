@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>常在河边走哪有不湿鞋</title>
-    <url>/2025/06/18/cfp/</url>
-    <content><![CDATA[<p>常在河边走哪有不湿鞋</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202506/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-06-18%20122611.png"
-                      alt="a"
-                ></p>
-]]></content>
-  </entry>
-  <entry>
     <title>HyperX毒刺2使用一个月体验，性价比的顶尖之选？</title>
     <url>/2025/04/13/2/</url>
     <content><![CDATA[<h2 id="闲话"><a href="#闲话" class="headerlink" title="闲话"></a>闲话</h2><p>上个月在京东原价入手了一个hyperX毒刺2，也算是换掉我二手的EarPods，刚买一个月愣是给我两次打击，又是降价又是出个新品，这运气也是没得说了</p>
@@ -64,6 +52,65 @@
       <tags>
         <tag>外设</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>常在河边走哪有不湿鞋</title>
+    <url>/2025/06/18/cfp/</url>
+    <content><![CDATA[<p>常在河边走哪有不湿鞋</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202506/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-06-18%20122611.png"
+                      alt="a"
+                ></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Cloudflare自建超快梯子？完美避开1101错误？解决.dev域名被墙？</title>
+    <url>/2025/02/16/cloudflare-proxies/</url>
+    <content><![CDATA[<h2 id="闲话"><a href="#闲话" class="headerlink" title="闲话"></a>闲话</h2><p>之周所众啊，目前网络上流传着很多免费的Clash订阅，但是这些订阅要么非常慢，要么不稳定，总之就是没几个好用的，此时有一个自己的梯子就是非常的重要了</p>
+<p>下面这张图的含金量再次被体现出来↓</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E6%A2%AF%E5%AD%90%E7%AC%AC%E4%B8%80%E6%B3%95%E5%88%99.png"
+                      alt="梯子三大法则"
+                ></p>
+<h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p>接下来的教程中的任何链接你如果打不开，可以先使用这个订阅：<a class="link"   href="https://free.datiya.com/" >https://free.datiya.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<p>本期使用了一个Github开源库：edgetunnel</p>
+<p>首先你需要一个Cloudflare账号，我觉得是个人都应该会注册的，不废话了</p>
+<p>到了仪表盘，点击左侧的”Workers和pages”，然后你应该看到这个</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235053.png"
+                      alt="1"
+                ></p>
+<p>点击创建，创建一个Workers，在创建页面”在模板开始”那里点快速开始，名字随便起，好记好打就行，例如114514</p>
+<p>然后在你的Workers界面，点编辑代码，默认代码全删，然后复制这个仓库里的：<a class="link"   href="https://github.com/cmliu/edgetunnel" >https://github.com/cmliu/edgetunnel<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<p>两个文件：明码原文和混淆版（workers.js)都可以，推荐混淆版</p>
+<p>然后到你的workers设置里，点击设置，变量与机密，类型纯文本，变量名叫UUID或者PASSWORD都可以（注意大写，注意大写，注意大写！！！），内容就是你的密码</p>
+<p>具体的变量说明要看项目的github上的说明</p>
+<p>订阅地址是你的域名&#x2F;+密码</p>
+<p>顺便一赏我炸裂的图表</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235452.png"
+                      alt="2"
+                ></p>
+<p>视频教学：<a class="link"   href="https://www.youtube.com/watch?v=tKe9xUuFODA" >https://www.youtube.com/watch?v=tKe9xUuFODA<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h2 id="Error1101"><a href="#Error1101" class="headerlink" title="Error1101"></a>Error1101</h2><p>2024年12月Cloudflare发布了协议，不允许用户使用pages和workers以任何形式搭建梯子</p>
+<p>但是呢，Cloudflare的态度并不是一棒子打死，每个用户每天是有100000条免费请求，这点请求量普通用户绝对够用，但是一旦你的请求量超过了规定的100000条，Cloudflare的棒子就会朝你飞来</p>
+<p>1101这个错误代码的意思其实并不是项目被阻止，而是因为你的请求超过了100000条，Cloudflare把你的Workers停了，所以你里面的代码跑到一半停了就会出现这个问题</p>
+<p>Cloudflare每个上传过的代码都是自动经过一次审查的，但梯子一般不会被查出来，因为这个一次审查的目的主要是检查你的代码有没有危害性，但是请求量超出了，就有被二次审查的风险，一旦被查出来，你就会被封号，项目也会被加入黑名单封锁，即使你改回默认的Hello World也会爆1101，唯一可以做的就是删库，这也是为什么我推荐混淆版</p>
+<p>所以就一个办法：不要滥用，不要把你的订阅发给别人</p>
+<p>视频：<a class="link"   href="https://www.youtube.com/watch?v=r4uVTEJptdE" >https://www.youtube.com/watch?v=r4uVTEJptdE<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h2 id="解决-dev被墙"><a href="#解决-dev被墙" class="headerlink" title="解决.dev被墙"></a>解决.dev被墙</h2><p>.dev域名在大陆基本上被墙光了，但是这个项目官方推荐的免费二级域名.us.kg非常繁琐且不好用，还经常报错，所以还是推荐使用默认的.workers.dev域名</p>
+<p>但是我的办法好像有点治标不治本，如果你有更好的办法就尽量不要用我的办法</p>
+<p>1、改DNS用谷歌的Public Dns（改DNS是个人都会的，不废话了）</p>
+<p>2、搭梯子</p>
+]]></content>
   </entry>
   <entry>
     <title>DNS响应速度与选择</title>
@@ -165,53 +212,6 @@
       <tags>
         <tag>网络</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Cloudflare自建超快梯子？完美避开1101错误？解决.dev域名被墙？</title>
-    <url>/2025/02/16/cloudflare-proxies/</url>
-    <content><![CDATA[<h2 id="闲话"><a href="#闲话" class="headerlink" title="闲话"></a>闲话</h2><p>之周所众啊，目前网络上流传着很多免费的Clash订阅，但是这些订阅要么非常慢，要么不稳定，总之就是没几个好用的，此时有一个自己的梯子就是非常的重要了</p>
-<p>下面这张图的含金量再次被体现出来↓</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E6%A2%AF%E5%AD%90%E7%AC%AC%E4%B8%80%E6%B3%95%E5%88%99.png"
-                      alt="梯子三大法则"
-                ></p>
-<h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p>接下来的教程中的任何链接你如果打不开，可以先使用这个订阅：<a class="link"   href="https://free.datiya.com/" >https://free.datiya.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<p>本期使用了一个Github开源库：edgetunnel</p>
-<p>首先你需要一个Cloudflare账号，我觉得是个人都应该会注册的，不废话了</p>
-<p>到了仪表盘，点击左侧的”Workers和pages”，然后你应该看到这个</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235053.png"
-                      alt="1"
-                ></p>
-<p>点击创建，创建一个Workers，在创建页面”在模板开始”那里点快速开始，名字随便起，好记好打就行，例如114514</p>
-<p>然后在你的Workers界面，点编辑代码，默认代码全删，然后复制这个仓库里的：<a class="link"   href="https://github.com/cmliu/edgetunnel" >https://github.com/cmliu/edgetunnel<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<p>两个文件：明码原文和混淆版（workers.js)都可以，推荐混淆版</p>
-<p>然后到你的workers设置里，点击设置，变量与机密，类型纯文本，变量名叫UUID或者PASSWORD都可以（注意大写，注意大写，注意大写！！！），内容就是你的密码</p>
-<p>具体的变量说明要看项目的github上的说明</p>
-<p>订阅地址是你的域名&#x2F;+密码</p>
-<p>顺便一赏我炸裂的图表</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235452.png"
-                      alt="2"
-                ></p>
-<p>视频教学：<a class="link"   href="https://www.youtube.com/watch?v=tKe9xUuFODA" >https://www.youtube.com/watch?v=tKe9xUuFODA<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h2 id="Error1101"><a href="#Error1101" class="headerlink" title="Error1101"></a>Error1101</h2><p>2024年12月Cloudflare发布了协议，不允许用户使用pages和workers以任何形式搭建梯子</p>
-<p>但是呢，Cloudflare的态度并不是一棒子打死，每个用户每天是有100000条免费请求，这点请求量普通用户绝对够用，但是一旦你的请求量超过了规定的100000条，Cloudflare的棒子就会朝你飞来</p>
-<p>1101这个错误代码的意思其实并不是项目被阻止，而是因为你的请求超过了100000条，Cloudflare把你的Workers停了，所以你里面的代码跑到一半停了就会出现这个问题</p>
-<p>Cloudflare每个上传过的代码都是自动经过一次审查的，但梯子一般不会被查出来，因为这个一次审查的目的主要是检查你的代码有没有危害性，但是请求量超出了，就有被二次审查的风险，一旦被查出来，你就会被封号，项目也会被加入黑名单封锁，即使你改回默认的Hello World也会爆1101，唯一可以做的就是删库，这也是为什么我推荐混淆版</p>
-<p>所以就一个办法：不要滥用，不要把你的订阅发给别人</p>
-<p>视频：<a class="link"   href="https://www.youtube.com/watch?v=r4uVTEJptdE" >https://www.youtube.com/watch?v=r4uVTEJptdE<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h2 id="解决-dev被墙"><a href="#解决-dev被墙" class="headerlink" title="解决.dev被墙"></a>解决.dev被墙</h2><p>.dev域名在大陆基本上被墙光了，但是这个项目官方推荐的免费二级域名.us.kg非常繁琐且不好用，还经常报错，所以还是推荐使用默认的.workers.dev域名</p>
-<p>但是我的办法好像有点治标不治本，如果你有更好的办法就尽量不要用我的办法</p>
-<p>1、改DNS用谷歌的Public Dns（改DNS是个人都会的，不废话了）</p>
-<p>2、搭梯子</p>
-]]></content>
   </entry>
   <entry>
     <title>同学处刑站</title>
