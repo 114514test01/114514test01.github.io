@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>常在河边走哪有不湿鞋</title>
+    <url>/2025/06/18/cfp/</url>
+    <content><![CDATA[<p>常在河边走哪有不湿鞋</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202506/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-06-18%20122611.png" alt="a"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>HyperX毒刺2使用一个月体验，性价比的顶尖之选？</title>
     <url>/2025/04/13/2/</url>
     <content><![CDATA[<h2 id="闲话"><a href="#闲话" class="headerlink" title="闲话"></a>闲话</h2><p>上个月在京东原价入手了一个hyperX毒刺2，也算是换掉我二手的EarPods，刚买一个月愣是给我两次打击，又是降价又是出个新品，这运气也是没得说了</p>
@@ -29,10 +36,83 @@
       </tags>
   </entry>
   <entry>
-    <title>常在河边走哪有不湿鞋</title>
-    <url>/2025/06/18/cfp/</url>
-    <content><![CDATA[<p>常在河边走哪有不湿鞋</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202506/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-06-18%20122611.png" alt="a"></p>
+    <title>Cloudflare自建超快梯子？完美避开1101错误？解决.dev域名被墙？已适配2.0</title>
+    <url>/2025/02/16/cloudflare-proxies/</url>
+    <content><![CDATA[<p><mark style="background-color:red; color:white;">本文更改自2025&#x2F;11&#x2F;23 UTC 16:30最新文章及文档，适配2.0</mark></p>
+<p><mark style="background-color:red; color:white;">本文以下内容全部适用于Blance中的1.0，2.0部分请参阅文章结尾</mark></p>
+<h2 id="闲话"><a href="#闲话" class="headerlink" title="闲话"></a>闲话</h2><p>之周所众啊，目前网络上流传着很多免费的Clash订阅，但是这些订阅要么非常慢，要么不稳定，总之就是没几个好用的，此时有一个自己的梯子就是非常的重要了</p>
+<p>下面这张图的含金量再次被体现出来↓</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E6%A2%AF%E5%AD%90%E7%AC%AC%E4%B8%80%E6%B3%95%E5%88%99.png" alt="梯子三大法则"></p>
+<h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p><del>接下来的教程中的任何链接你如果打不开，可以先使用这个订阅：<a class="link"   href="https://free.datiya.com/" >https://free.datiya.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></del> 已失效</p>
+<p>本期使用了一个Github开源库：edgetunnel</p>
+<p>首先你需要一个Cloudflare账号，我觉得是个人都应该会注册的，不废话了</p>
+<p>到了仪表盘，点击左侧的”Workers和pages”，然后你应该看到这个</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235053.png" alt="1"></p>
+<p>点击创建，创建一个Workers，在创建页面”在模板开始”那里点快速开始，名字随便起，好记好打就行，例如114514</p>
+<p>然后在你的Workers界面，点编辑代码，默认代码全删，然后复制这个仓库里的：<a class="link"   href="https://github.com/cmliu/edgetunnel" >https://github.com/cmliu/edgetunnel<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<p><del>两个文件：明码原文和混淆版（workers.js)都可以，推荐混淆版</del></p>
+<p>(2025&#x2F;11&#x2F;23)目前仅剩原文</p>
+<p>然后到你的workers设置里，点击设置，变量与机密，类型纯文本，变量名叫UUID或者PASSWORD都可以（注意大写，注意大写，注意大写！！！），内容就是你的密码</p>
+<p>具体的变量说明要看项目的github上的说明</p>
+<p>订阅地址是你的域名&#x2F;+密码</p>
+<p>顺便一赏我炸裂的图表</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235452.png" alt="2"></p>
+<p>视频教学：<a class="link"   href="https://www.youtube.com/watch?v=tKe9xUuFODA" >https://www.youtube.com/watch?v=tKe9xUuFODA<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h2 id="Error1101"><a href="#Error1101" class="headerlink" title="Error1101"></a>Error1101</h2><p>2024年12月Cloudflare发布了协议，不允许用户使用pages和workers以任何形式搭建梯子</p>
+<p>但是呢，Cloudflare的态度并不是一棒子打死，每个用户每天是有100000条免费请求，这点请求量普通用户绝对够用，但是一旦你的请求量超过了规定的100000条，Cloudflare的棒子就会朝你飞来</p>
+<p>1101这个错误代码的意思其实并不是项目被阻止，而是因为你的请求超过了100000条，Cloudflare把你的Workers停了，所以你里面的代码跑到一半停了就会出现这个问题</p>
+<p>Cloudflare每个上传过的代码都是自动经过一次审查的，但梯子一般不会被查出来，因为这个一次审查的目的主要是检查你的代码有没有危害性，但是请求量超出了，就有被二次审查的风险，一旦被查出来，你就会被封号，项目也会被加入黑名单封锁，即使你改回默认的Hello World也会爆1101，唯一可以做的就是删库，<del>这也是为什么我推荐混淆版</del>（截至2025&#x2F;11&#x2F;23源码已无问题）</p>
+<p>所以就一个办法：不要滥用，不要把你的订阅发给别人</p>
+<p>视频：<a class="link"   href="https://www.youtube.com/watch?v=r4uVTEJptdE" >https://www.youtube.com/watch?v=r4uVTEJptdE<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h2 id="解决-dev被墙"><a href="#解决-dev被墙" class="headerlink" title="解决.dev被墙"></a>解决.dev被墙</h2><p>.dev域名在大陆基本上被墙光了，但是这个项目官方推荐的免费二级域名.us.kg非常繁琐且不好用，还经常报错，所以还是推荐使用默认的.workers.dev域名</p>
+<p>但是我的办法好像有点治标不治本，如果你有更好的办法就尽量不要用我的办法</p>
+<p><del>1、改DNS用谷歌的Public Dns（改DNS是个人都会的，不废话了）</del> （已失效）</p>
+<p>2、搭梯子</p>
+<h2 id="2-0说明"><a href="#2-0说明" class="headerlink" title="2.0说明"></a>2.0说明</h2><p>虽本次2.0更新底层逻辑基本与旧版一致，但在变量，配置方法等仍有区别</p>
+<p>新版UUID&#x2F;Password变量改为ADMIN</p>
+<p>新版强制绑定一个KV空间</p>
+<p>新版的登陆方法为在&#x2F;login页面输入你的Admin变量并在配置仪表盘的自定义订阅复制订阅链接</p>
+<p>KV可以在储存与数据库&gt;&gt;Workers KV中新建，命名可以随意，然后在Workers中绑定KV空间，绑定变量名必须为KV</p>
+<p>如果觉得太烦，可以参照我日后可能会写的cfnew搭建及配置说明</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>“我们把系统Bug都删完了。”“欸，系统怎么没了？”</title>
+    <url>/2025/08/24/wininsider/</url>
+    <content><![CDATA[<h2 id="Windows-Bug体验计划"><a href="#Windows-Bug体验计划" class="headerlink" title="Windows Bug体验计划"></a>Windows Bug体验计划</h2><p>Windows预览体验计划，是微软公司推出的一个公测计划，使得用户可以免费获得以往仅有高专业开发人员付费订阅MSDN或TechNet才能获取的 Microsoft Windows 操作系统开发版本。一般分为4个渠道：Canary、Dev、Beta、Realase</p>
+<p>尽管尝鲜对于某些热爱技术、瞎折腾的用户看起来很诱人，但实际上，用户更多感到的是优化稀烂，Bug频出（吗？）</p>
+<p>不过俗话说：一个Bug是Bug，一堆Bug能Work，但凡是人能做出来的程序，Bug就是必然成分，作为一个规模庞大的闭源操作系统，Bug的报告和修复必然需要社区与开发人员的协同配合，作为自愿参加的Insider们，也是贯彻了：骂是必须要骂，更新还是照样得继续，Bug也还是得报告的优良传统</p>
+<p>本人两年Canary渠道</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/6.png" alt="1"></p>
+<h2 id="象征性绿屏"><a href="#象征性绿屏" class="headerlink" title="象征性绿屏"></a>象征性绿屏</h2><p>蓝屏作为Windows标准版最经典的象征之一，无论有没有用过Windows想必各位都有所耳闻，对于Windows预览版来说，微软将象征性的蓝屏改为了预览版独有的绿屏</p>
+<p>老版绿屏（Win11早期、Win10）：</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/%E8%80%81%E7%89%88%E7%BB%BF%E5%B1%8F.webp" alt="GS1"></p>
+<p>新版：</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/%E6%96%B0%E7%89%88%E7%BB%BF%E5%B1%8F.png" alt="GS2"></p>
+<h2 id="槽点，缺点"><a href="#槽点，缺点" class="headerlink" title="槽点，缺点"></a>槽点，缺点</h2><h3 id="逆天更新频率和稳定性"><a href="#逆天更新频率和稳定性" class="headerlink" title="逆天更新频率和稳定性"></a>逆天更新频率和稳定性</h3><p>不知道各位有没有经常装Windows大更新，大更新的安装，动辄两个小时，长则十二小时，不过大更新对于一般用户来说，也就是半年甚至1年一次的事，但对于预览版来说则否。</p>
+<p>Canary频道往常面临的是高频次的功能添加、Bug修复。尽管如果电脑性能较为强大，更新的过程中打游戏并不会造成多大的影响，但毕竟大多数用户还在使用低压、节能版的i5CPU，且预览版以大更新，也就是dism安装方式将映像部署到系统内，势必会造成大量的CPU占用，导致影响其他应用正常运行</p>
+<p>不过，想必在加入体验计划时大多数人也会考虑到这个问题，属于意料之内的就是</p>
+<p>（（（↓<br><img src="https://picx.zhimg.com/80/v2-8f726c562d77483036786c57f5affeac_1440w.webp?source=1def8aca" alt="2"></p>
+<h3 id="令人舒适的驱动"><a href="#令人舒适的驱动" class="headerlink" title="令人舒适的驱动"></a>令人舒适的驱动</h3><p>之前我在群里说我在这系统上打游戏，就有人跟我说：”真的佩服你是怎么在一个这么不稳定系统上打游戏的”，其实这话也不是没有道理</p>
+<p>假如你是个用核显的，并且关注驱动这种东西，你就知道，微软喜欢用万年不变的31.0.101.1999驱动</p>
+<p>虽然微软并没有禁止用户安装更新版本的显卡驱动，但是对于预览版用户来说，每一次大更新，都会重新将一部分驱动刷回以前的更早版本且无法回滚，这也就意味着，每次安装新预览版就会把驱动刷回以前的31.0.101.1999，这个驱动要好用也就算了，但问题就在于这个版本的驱动优化稀烂，打游戏还会频繁掉帧，比普遍的最新驱动帧数会低20帧甚至以上</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/%E4%B8%87%E5%B9%B4%E4%B8%8D%E6%94%B91999.png" alt="1999"></p>
+<h3 id="原生桌面美观度小幅度下降"><a href="#原生桌面美观度小幅度下降" class="headerlink" title="原生桌面美观度小幅度下降"></a>原生桌面美观度小幅度下降</h3><p>别的不说，自己看右下角多了啥吧</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/desktop.png" alt="desktop"></p>
+<h3 id="幽灵文件夹"><a href="#幽灵文件夹" class="headerlink" title="幽灵文件夹"></a>幽灵文件夹</h3><p>如果你关注过系统储存的部分，就应该会知道，Windows每次大更新都会在C盘根目录下产生一个Windows.old文件夹，用于方便回滚之前的版本，通常都会占用24到26G的空间，虽然可以删除，但是对于那些硬盘空间非常紧张的用户来说，可能被填满硬盘，甚至无法完成正常安装，且如果删除就意味着，一旦当前的系统版本出现任何问题，想要回退到之前的版本，就只能重装系统</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/OIP.webp" alt="file"></p>
+<h3 id="还原点"><a href="#还原点" class="headerlink" title="还原点"></a>还原点</h3><p>还是和存储空间有关，想必各位对于系统还原点都有所耳闻，有些倒霉蛋甚至被占用了300G以上的可用空间，大部分人会自己关掉；但问题就在于，预览版更新以后，这玩意儿默认是开着的，这就导致很多倒霉蛋被莫名其妙占用几个G的空间，发现装完预览版空间变小很多，多半就是上面这两惹的祸</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/hyd.png" alt="hyd"></p>
+<h2 id="奇葩Bug大赏"><a href="#奇葩Bug大赏" class="headerlink" title="奇葩Bug大赏"></a>奇葩Bug大赏</h2><h3 id="三个点小菜单向上弹出"><a href="#三个点小菜单向上弹出" class="headerlink" title="三个点小菜单向上弹出"></a>三个点小菜单向上弹出</h3><p>部分正式版和beta、Canary、Dev均存在</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/%E4%B8%89%E4%B8%AA%E7%82%B9.jpg" alt="3point"></p>
+<h3 id="梦回2006？"><a href="#梦回2006？" class="headerlink" title="梦回2006？"></a>梦回2006？</h3><p>部分Dev和Canary预览版出现了“在开机时播放Vista开机音乐”的bug</p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/2006.jpg" alt="2006"></p>
+<h3 id="奇怪的CMD启动方式？"><a href="#奇怪的CMD启动方式？" class="headerlink" title="奇怪的CMD启动方式？"></a>奇怪的CMD启动方式？</h3><p>梦回Win7时代</p>
+<p><video src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/cmd.mp4" controls></video></p>
+<h3 id="语无伦次"><a href="#语无伦次" class="headerlink" title="语无伦次"></a>语无伦次</h3><p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/%E8%80%81bug1.jpg" alt="a"></p>
+<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/%E8%80%81Bug2.png" alt="b"></p>
+<p>不过总体来说，这几年Windows预览版的Bug也在逐渐变少，微软对反馈的态度也在逐渐改善，更加注重用户体验（虽然写正在调查但是修不修的好又是另外一回事），假如你只是单纯的想尝鲜，入个Beta或者Dev也不错</p>
+<p>但是Canary的话。。。那就是另外一回事了</p>
 ]]></content>
   </entry>
   <entry>
@@ -135,86 +215,6 @@
       <tags>
         <tag>网络</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Cloudflare自建超快梯子？完美避开1101错误？解决.dev域名被墙？已适配2.0</title>
-    <url>/2025/02/16/cloudflare-proxies/</url>
-    <content><![CDATA[<p><mark style="background-color:red; color:white;">本文更改自2025&#x2F;11&#x2F;23 UTC 16:30最新文章及文档，适配2.0</mark></p>
-<p><mark style="background-color:red; color:white;">本文以下内容全部适用于Blance中的1.0，2.0部分请参阅文章结尾</mark></p>
-<h2 id="闲话"><a href="#闲话" class="headerlink" title="闲话"></a>闲话</h2><p>之周所众啊，目前网络上流传着很多免费的Clash订阅，但是这些订阅要么非常慢，要么不稳定，总之就是没几个好用的，此时有一个自己的梯子就是非常的重要了</p>
-<p>下面这张图的含金量再次被体现出来↓</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E6%A2%AF%E5%AD%90%E7%AC%AC%E4%B8%80%E6%B3%95%E5%88%99.png" alt="梯子三大法则"></p>
-<h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p><del>接下来的教程中的任何链接你如果打不开，可以先使用这个订阅：<a class="link"   href="https://free.datiya.com/" >https://free.datiya.com/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></del> 已失效</p>
-<p>本期使用了一个Github开源库：edgetunnel</p>
-<p>首先你需要一个Cloudflare账号，我觉得是个人都应该会注册的，不废话了</p>
-<p>到了仪表盘，点击左侧的”Workers和pages”，然后你应该看到这个</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235053.png" alt="1"></p>
-<p>点击创建，创建一个Workers，在创建页面”在模板开始”那里点快速开始，名字随便起，好记好打就行，例如114514</p>
-<p>然后在你的Workers界面，点编辑代码，默认代码全删，然后复制这个仓库里的：<a class="link"   href="https://github.com/cmliu/edgetunnel" >https://github.com/cmliu/edgetunnel<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<p><del>两个文件：明码原文和混淆版（workers.js)都可以，推荐混淆版</del></p>
-<p>(2025&#x2F;11&#x2F;23)目前仅剩原文</p>
-<p>然后到你的workers设置里，点击设置，变量与机密，类型纯文本，变量名叫UUID或者PASSWORD都可以（注意大写，注意大写，注意大写！！！），内容就是你的密码</p>
-<p>具体的变量说明要看项目的github上的说明</p>
-<p>订阅地址是你的域名&#x2F;+密码</p>
-<p>顺便一赏我炸裂的图表</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202503/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20235452.png" alt="2"></p>
-<p>视频教学：<a class="link"   href="https://www.youtube.com/watch?v=tKe9xUuFODA" >https://www.youtube.com/watch?v=tKe9xUuFODA<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h2 id="Error1101"><a href="#Error1101" class="headerlink" title="Error1101"></a>Error1101</h2><p>2024年12月Cloudflare发布了协议，不允许用户使用pages和workers以任何形式搭建梯子</p>
-<p>但是呢，Cloudflare的态度并不是一棒子打死，每个用户每天是有100000条免费请求，这点请求量普通用户绝对够用，但是一旦你的请求量超过了规定的100000条，Cloudflare的棒子就会朝你飞来</p>
-<p>1101这个错误代码的意思其实并不是项目被阻止，而是因为你的请求超过了100000条，Cloudflare把你的Workers停了，所以你里面的代码跑到一半停了就会出现这个问题</p>
-<p>Cloudflare每个上传过的代码都是自动经过一次审查的，但梯子一般不会被查出来，因为这个一次审查的目的主要是检查你的代码有没有危害性，但是请求量超出了，就有被二次审查的风险，一旦被查出来，你就会被封号，项目也会被加入黑名单封锁，即使你改回默认的Hello World也会爆1101，唯一可以做的就是删库，<del>这也是为什么我推荐混淆版</del>（截至2025&#x2F;11&#x2F;23源码已无问题）</p>
-<p>所以就一个办法：不要滥用，不要把你的订阅发给别人</p>
-<p>视频：<a class="link"   href="https://www.youtube.com/watch?v=r4uVTEJptdE" >https://www.youtube.com/watch?v=r4uVTEJptdE<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h2 id="解决-dev被墙"><a href="#解决-dev被墙" class="headerlink" title="解决.dev被墙"></a>解决.dev被墙</h2><p>.dev域名在大陆基本上被墙光了，但是这个项目官方推荐的免费二级域名.us.kg非常繁琐且不好用，还经常报错，所以还是推荐使用默认的.workers.dev域名</p>
-<p>但是我的办法好像有点治标不治本，如果你有更好的办法就尽量不要用我的办法</p>
-<p><del>1、改DNS用谷歌的Public Dns（改DNS是个人都会的，不废话了）</del> （已失效）</p>
-<p>2、搭梯子</p>
-<h2 id="2-0说明"><a href="#2-0说明" class="headerlink" title="2.0说明"></a>2.0说明</h2><p>虽本次2.0更新底层逻辑基本与旧版一致，但在变量，配置方法等仍有区别</p>
-<p>新版UUID&#x2F;Password变量改为ADMIN</p>
-<p>新版强制绑定一个KV空间</p>
-<p>新版的登陆方法为在&#x2F;login页面输入你的Admin变量并在配置仪表盘的自定义订阅复制订阅链接</p>
-<p>KV可以在储存与数据库&gt;&gt;Workers KV中新建，命名可以随意，然后在Workers中绑定KV空间，绑定变量名必须为KV</p>
-<p>如果觉得太烦，可以参照我日后可能会写的cfnew搭建及配置说明</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>“我们把系统Bug都删完了。”“欸，系统怎么没了？”</title>
-    <url>/2025/08/24/wininsider/</url>
-    <content><![CDATA[<h2 id="Windows-Bug体验计划"><a href="#Windows-Bug体验计划" class="headerlink" title="Windows Bug体验计划"></a>Windows Bug体验计划</h2><p>Windows预览体验计划，是微软公司推出的一个公测计划，使得用户可以免费获得以往仅有高专业开发人员付费订阅MSDN或TechNet才能获取的 Microsoft Windows 操作系统开发版本。一般分为4个渠道：Canary、Dev、Beta、Realase</p>
-<p>尽管尝鲜对于某些热爱技术、瞎折腾的用户看起来很诱人，但实际上，用户更多感到的是优化稀烂，Bug频出（吗？）</p>
-<p>不过俗话说：一个Bug是Bug，一堆Bug能Work，但凡是人能做出来的程序，Bug就是必然成分，作为一个规模庞大的闭源操作系统，Bug的报告和修复必然需要社区与开发人员的协同配合，作为自愿参加的Insider们，也是贯彻了：骂是必须要骂，更新还是照样得继续，Bug也还是得报告的优良传统</p>
-<p>本人两年Canary渠道</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/6.png" alt="1"></p>
-<h2 id="象征性绿屏"><a href="#象征性绿屏" class="headerlink" title="象征性绿屏"></a>象征性绿屏</h2><p>蓝屏作为Windows标准版最经典的象征之一，无论有没有用过Windows想必各位都有所耳闻，对于Windows预览版来说，微软将象征性的蓝屏改为了预览版独有的绿屏</p>
-<p>老版绿屏（Win11早期、Win10）：</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/%E8%80%81%E7%89%88%E7%BB%BF%E5%B1%8F.webp" alt="GS1"></p>
-<p>新版：</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/%E6%96%B0%E7%89%88%E7%BB%BF%E5%B1%8F.png" alt="GS2"></p>
-<h2 id="槽点，缺点"><a href="#槽点，缺点" class="headerlink" title="槽点，缺点"></a>槽点，缺点</h2><h3 id="逆天更新频率和稳定性"><a href="#逆天更新频率和稳定性" class="headerlink" title="逆天更新频率和稳定性"></a>逆天更新频率和稳定性</h3><p>不知道各位有没有经常装Windows大更新，大更新的安装，动辄两个小时，长则十二小时，不过大更新对于一般用户来说，也就是半年甚至1年一次的事，但对于预览版来说则否。</p>
-<p>Canary频道往常面临的是高频次的功能添加、Bug修复。尽管如果电脑性能较为强大，更新的过程中打游戏并不会造成多大的影响，但毕竟大多数用户还在使用低压、节能版的i5CPU，且预览版以大更新，也就是dism安装方式将映像部署到系统内，势必会造成大量的CPU占用，导致影响其他应用正常运行</p>
-<p>不过，想必在加入体验计划时大多数人也会考虑到这个问题，属于意料之内的就是</p>
-<p>（（（↓<br><img src="https://picx.zhimg.com/80/v2-8f726c562d77483036786c57f5affeac_1440w.webp?source=1def8aca" alt="2"></p>
-<h3 id="令人舒适的驱动"><a href="#令人舒适的驱动" class="headerlink" title="令人舒适的驱动"></a>令人舒适的驱动</h3><p>之前我在群里说我在这系统上打游戏，就有人跟我说：”真的佩服你是怎么在一个这么不稳定系统上打游戏的”，其实这话也不是没有道理</p>
-<p>假如你是个用核显的，并且关注驱动这种东西，你就知道，微软喜欢用万年不变的31.0.101.1999驱动</p>
-<p>虽然微软并没有禁止用户安装更新版本的显卡驱动，但是对于预览版用户来说，每一次大更新，都会重新将一部分驱动刷回以前的更早版本且无法回滚，这也就意味着，每次安装新预览版就会把驱动刷回以前的31.0.101.1999，这个驱动要好用也就算了，但问题就在于这个版本的驱动优化稀烂，打游戏还会频繁掉帧，比普遍的最新驱动帧数会低20帧甚至以上</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/%E4%B8%87%E5%B9%B4%E4%B8%8D%E6%94%B91999.png" alt="1999"></p>
-<h3 id="原生桌面美观度小幅度下降"><a href="#原生桌面美观度小幅度下降" class="headerlink" title="原生桌面美观度小幅度下降"></a>原生桌面美观度小幅度下降</h3><p>别的不说，自己看右下角多了啥吧</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/desktop.png" alt="desktop"></p>
-<h3 id="幽灵文件夹"><a href="#幽灵文件夹" class="headerlink" title="幽灵文件夹"></a>幽灵文件夹</h3><p>如果你关注过系统储存的部分，就应该会知道，Windows每次大更新都会在C盘根目录下产生一个Windows.old文件夹，用于方便回滚之前的版本，通常都会占用24到26G的空间，虽然可以删除，但是对于那些硬盘空间非常紧张的用户来说，可能被填满硬盘，甚至无法完成正常安装，且如果删除就意味着，一旦当前的系统版本出现任何问题，想要回退到之前的版本，就只能重装系统</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/OIP.webp" alt="file"></p>
-<h3 id="还原点"><a href="#还原点" class="headerlink" title="还原点"></a>还原点</h3><p>还是和存储空间有关，想必各位对于系统还原点都有所耳闻，有些倒霉蛋甚至被占用了300G以上的可用空间，大部分人会自己关掉；但问题就在于，预览版更新以后，这玩意儿默认是开着的，这就导致很多倒霉蛋被莫名其妙占用几个G的空间，发现装完预览版空间变小很多，多半就是上面这两惹的祸</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/hyd.png" alt="hyd"></p>
-<h2 id="奇葩Bug大赏"><a href="#奇葩Bug大赏" class="headerlink" title="奇葩Bug大赏"></a>奇葩Bug大赏</h2><h3 id="三个点小菜单向上弹出"><a href="#三个点小菜单向上弹出" class="headerlink" title="三个点小菜单向上弹出"></a>三个点小菜单向上弹出</h3><p>部分正式版和beta、Canary、Dev均存在</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/%E4%B8%89%E4%B8%AA%E7%82%B9.jpg" alt="3point"></p>
-<h3 id="梦回2006？"><a href="#梦回2006？" class="headerlink" title="梦回2006？"></a>梦回2006？</h3><p>部分Dev和Canary预览版出现了“在开机时播放Vista开机音乐”的bug</p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/2006.jpg" alt="2006"></p>
-<h3 id="奇怪的CMD启动方式？"><a href="#奇怪的CMD启动方式？" class="headerlink" title="奇怪的CMD启动方式？"></a>奇怪的CMD启动方式？</h3><p>梦回Win7时代</p>
-<p><video src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/cmd.mp4" controls></video></p>
-<h3 id="语无伦次"><a href="#语无伦次" class="headerlink" title="语无伦次"></a>语无伦次</h3><p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/%E8%80%81bug1.jpg" alt="a"></p>
-<p><img src="https://ghproxy.net/https://raw.githubusercontent.com/114514test01/imgtemp/refs/heads/main/202508/%E8%80%81Bug2.png" alt="b"></p>
-<p>不过总体来说，这几年Windows预览版的Bug也在逐渐变少，微软对反馈的态度也在逐渐改善，更加注重用户体验（虽然写正在调查但是修不修的好又是另外一回事），假如你只是单纯的想尝鲜，入个Beta或者Dev也不错</p>
-<p>但是Canary的话。。。那就是另外一回事了</p>
-]]></content>
   </entry>
   <entry>
     <title>同学处刑站</title>
