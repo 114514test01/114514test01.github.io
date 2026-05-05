@@ -100,7 +100,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/images/redefine-og.webp">
 <meta property="article:published_time" content="2025-02-16T06:44:30.000Z">
-<meta property="article:modified_time" content="2026-01-26T09:42:34.822Z">
+<meta property="article:modified_time" content="2026-05-05T06:08:05.550Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/redefine-og.webp">
@@ -361,8 +361,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2026-01-26 17:42:34</span>
-            <span class="mobile">2026-01-26 17:42:34</span>
+            <span class="desktop">2026-05-05 14:08:05</span>
+            <span class="mobile">2026-05-05 14:08:05</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -412,8 +412,11 @@
 <h2 id="Error1101"><a href="#Error1101" class="headerlink" title="Error1101"></a>Error1101</h2><p>2024年12月Cloudflare发布了协议，不允许用户使用pages和workers以任何形式搭建梯子</p>
 <p>但是呢，Cloudflare的态度并不是一棒子打死，每个用户每天是有100000条免费请求，这点请求量普通用户绝对够用，但是一旦你的请求量超过了规定的100000条，Cloudflare的棒子就会朝你飞来</p>
 <p>1101这个错误代码的意思其实并不是项目被阻止，而是因为你的请求超过了100000条，Cloudflare把你的Workers停了，所以你里面的代码跑到一半停了就会出现这个问题</p>
-<p>Cloudflare每个上传过的代码都是自动经过一次审查的，但梯子一般不会被查出来，因为这个一次审查的目的主要是检查你的代码有没有危害性，但是请求量超出了，就有被二次审查的风险，一旦被查出来，你就会被封号，项目也会被加入黑名单封锁，即使你改回默认的Hello World也会爆1101，唯一可以做的就是删库，<del>这也是为什么我推荐混淆版</del>（截至2025&#x2F;11&#x2F;23源码已无问题）</p>
+<p>Cloudflare每个上传过的代码都是自动经过一次审查的，但梯子一般不会被查出来，因为这个一次审查的目的主要是检查你的代码有没有危害性，但是请求量超出了，就有被二次审查的风险，一旦被查出来，你就会被封号，项目也会被加入黑名单封锁，<del>即使你改回默认的Hello World也会爆1101</del>（并不是每个人都会这样，这是长期研究的经验），唯一可以做的就是删库，<del>这也是为什么我推荐混淆版</del>（截至2025&#x2F;11&#x2F;23源码已无问题）</p>
 <p>所以就一个办法：不要滥用，不要把你的订阅发给别人</p>
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>至于解决办法，你可以重新开一个Hello world然后打开，看看会不会爆1101</p>
+<p>如果没有爆，说明账号没有被封</p>
+<p>在上述前提下，如果你重新开了一个workers，并且还是被封了，说明你的代码大概率是有问题的，这种问题主要出现在可以部署，但不能运行的情况下，可以检查是否是复制的代码出了问题</p>
 <p>视频：<a class="link"   target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=r4uVTEJptdE" >https://www.youtube.com/watch?v=r4uVTEJptdE<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 <h2 id="解决-dev被墙"><a href="#解决-dev被墙" class="headerlink" title="解决.dev被墙"></a>解决.dev被墙</h2><p>.dev域名在大陆基本上被墙光了，但是这个项目官方推荐的免费二级域名.us.kg非常繁琐且不好用，还经常报错，所以还是推荐使用默认的.workers.dev域名</p>
 <p>但是我的办法好像有点治标不治本，如果你有更好的办法就尽量不要用我的办法</p>
@@ -439,7 +442,7 @@
         
             <li>
                 <strong>Updated at
-                    :</strong> 2026-01-26 17:42:34
+                    :</strong> 2026-05-05 14:08:05
             </li>
         
         <li>
@@ -568,7 +571,7 @@
 	<div class="post-toc">
 		<div class="toc-title">On this page</div>
 		<div class="page-title">Cloudflare自建超快梯子？完美避开1101错误？解决.dev域名被墙？已适配2.0</div>
-		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%B2%E8%AF%9D"><span class="nav-text">闲话</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%90%AD%E5%BB%BA"><span class="nav-text">搭建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Error1101"><span class="nav-text">Error1101</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3-dev%E8%A2%AB%E5%A2%99"><span class="nav-text">解决.dev被墙</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-0%E8%AF%B4%E6%98%8E"><span class="nav-text">2.0说明</span></a></li></ol>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%B2%E8%AF%9D"><span class="nav-text">闲话</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%90%AD%E5%BB%BA"><span class="nav-text">搭建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Error1101"><span class="nav-text">Error1101</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95"><span class="nav-text">解决方法</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3-dev%E8%A2%AB%E5%A2%99"><span class="nav-text">解决.dev被墙</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-0%E8%AF%B4%E6%98%8E"><span class="nav-text">2.0说明</span></a></li></ol>
 
 	</div>
 </div>
